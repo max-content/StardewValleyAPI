@@ -29,7 +29,7 @@ module.exports = {
 
         Crop.create({
             name: name, 
-            rowthPeriod: growthPeriod, regrowthPeriod:regrowthPeriod, seedCost:seedCost, 
+            growthPeriod: growthPeriod, regrowthPeriod:regrowthPeriod, seedCost:seedCost, 
             season: dictionary
             //don't forget to also add any new field objects to the model here as well!
             // , (err, result) => handleResponse(err, result, resp)
